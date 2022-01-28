@@ -189,6 +189,7 @@ h6 {
   color: white;
 }
 
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -662,7 +663,7 @@ section {
   margin: 15px 0 0 0;
   font-size: 32px;
   font-weight: 700;
-  color: black;
+  color:  rgb(95, 190, 220);
 }
 
 .section-title h3 span {
@@ -809,8 +810,8 @@ section {
 }
 .featured-services .luis {
   padding: 30px 0;
-  width: 600px;
-  height: 370px;
+  width: 550px;
+  height: 320px;
 }
 
 .featured-services .description {
@@ -853,6 +854,7 @@ section {
   font-weight: 600;
   font-size: 26px;
   text-align: center;
+  color:  rgb(95, 190, 220);
 }
 
 .about .content ul {
@@ -882,7 +884,7 @@ section {
 
 .about .content ul h5 {
   font-size: 18px;
-  color: rgb(95, 190, 220);
+  color: black;
 }
 
 .about .content ul p {
@@ -931,7 +933,7 @@ Mision, vision y valores
   position: relative;
   overflow: hidden;
   background: #fff;
-  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  box-shadow: 5px 5px 35px 10px rgba(68, 88, 144, 0.12);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
@@ -975,6 +977,30 @@ Mision, vision y valores
 .mvv ul li {
   list-style: circle;
 }
+/*--------------------------------------------------------------
+# Operaciones
+--------------------------------------------------------------*/
+
+ #operaciones .operaciones {
+
+  width: 540px;
+  height: 300px;
+}
+ #ops_row {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  
+}  
+@media screen and (max-width: 1200px) {
+  #operaciones .operaciones {
+
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
@@ -1850,202 +1876,217 @@ Mision, vision y valores
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-#footer {
-  background:  rgb(0, 140, 190);
-  padding: 0 0 30px 0;
-  color: #444444;
+.footer-top {
+  padding: 40px 0 30px 0;
+  color: white;
   font-size: 14px;
-  background:  rgb(0, 140, 190);
-}
-/*
-
-#footer .footer-newsletter {
-  padding: 50px 0;
-  background: #f1f6fe;
-  text-align: center;
-  font-size: 15px;
-}
-
- #footer .footer-newsletter h4 {
-  font-size: 24px;
-  margin: 0 0 20px 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 600;
-} */
-/* 
-#footer .footer-newsletter form {
-  margin-top: 30px;
-  background: 
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 4px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
-  text-align: left;
-}
-
-#footer .footer-newsletter form input[type="email"] {
-  border: 0;
-  padding: 4px 8px;
-  width: calc(100% - 100px);
+  background:  rgb(95, 190, 220);
 }
 
 
-#footer .footer-newsletter form input[type="submit"] {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  background: rgb(95, 190, 220);
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 0 4px 4px 0;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-*/
-
-/* #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #0d58ba;
-}  */
-
-#footer .footer-top {
+.footer-top {
   padding: 60px 0 30px 0;
-  background:rgb(0, 140, 190);
+  
 }
-
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
 }
-
 #footer .footer-top .footer-contact h3 {
   font-size: 24px;
   margin: 0 0 15px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 700;
-  color: black;
+  
 }
 
-/* #footer .footer-top .footer-contact h3 span {
-  color: white;
-} */
-
 #footer .footer-top .footer-contact p {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
-  color: white;
+  color: #fff;
 }
-
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #444444;
+  
   position: relative;
   padding-bottom: 12px;
 }
-
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
 }
-#footer .footer-top .footer-links h4 {
-  font-size: 24px;
-  margin: 0 0 15px 0;
-  padding: 2px 0 2px 0;
-  line-height: 1;
-  font-weight: 700;
-  color: black;
-
-}
-#footer .footer-top .footer-links p {
-  font-size: 16px;
-  line-height: 24px;
-  margin-bottom: 0;
-  font-family: "Roboto", sans-serif;
-  color: white;
-
-}
-
-
-/* 
 #footer .footer-top .footer-links ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding-left: 1.5rem !important;
+  
 }
-
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: rgb(95, 190, 220);
+  color: #fff;
   font-size: 18px;
   line-height: 1;
 }
+ .footer-top .footer-contact img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  
+} 
 
 #footer .footer-top .footer-links ul li {
   padding: 10px 0;
   display: flex;
   align-items: center;
 }
-
 #footer .footer-top .footer-links ul li:first-child {
   padding-top: 0;
 }
-
-#footer .footer-top .footer-links ul a {
-  color: #777777;
+.footer-top .footer-links ul li a {
+  color:#fff !important;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
-#footer .footer-top .footer-links ul a:hover {
-  text-decoration: none;
+
+/*--------------------------------------------------------------
+# Footer bottom
+--------------------------------------------------------------*/
+
+#footer-bottom {
+  background: #fff;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.5s;
   color: rgb(95, 190, 220);
-} */
+  padding: 0;
+}
 
-#footer .footer-top .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: rgb(95, 190, 220);
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 4px;
-  text-align: center;
-  width: 36px;
-  height: 36px;
+#footer-bottom .contact-info i {
+  font-style: 16px;
+  color: rgb(95, 190, 220);
+}
+
+#footer-bottom .contact-info i a,
+#footer-bottom .contact-info i span {
+  padding-left: 5px;
+  color: rgb(95, 190, 220);
+}
+
+#footer-bottom .contact-info i a {
+  line-height: 0;
+  transition: 0.3s;
   transition: 0.3s;
 }
 
-#footer .footer-top .social-links a:hover {
-  background: #3b8af2;
+#footer-bottom .contact-info i a:hover {
   color: #fff;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
-/* #footer .copyright {
-  text-align: center;
-  float: left;
+#footer-bottom .emergency {
+  color: rgb(95, 190, 220);
+  line-height: 0;
+  transition: 0.3s;
+  margin-left: 20px;
+}
+#footer-bottom .emergency h5 {
+  color: rgb(95, 190, 220);
+  font-weight: 700;
 }
 
-#footer .credits {
-  float: right;
-  text-align: center;
-  font-size: 13px;
-  color: #444444;
+#footer-bottom a:hover {
+  color: white;
 }
+@media screen and (max-width: 550px) {
+  .footer-top {
+    width: 100%;
+    padding-left: 20%;
+    font-size: 11px;
 
-@media (max-width: 768px) {
-  #footer .copyright,
-  #footer .credits {
-    float: none;
-    text-align: center;
-    padding: 2px 0;
   }
-} */
+  .footer-top .footer-contact p {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+  }
+  .footer-top h4 {
+    font-size: 22px;
+    font-weight: bold;
+    
+    position: relative;
+    padding-bottom: 12px;
+  }
+  .footer-top .footer-links {
+    margin-bottom: 30px;
+  }
+  .footer-top .footer-links ul {
+    list-style: none;
+    padding-left: 1rem !important;
+    margin: 0;
+  }
+  .footer-top .footer-links ul i {
+    
+    color: #fff;
+    font-size: 12px;
+    line-height: 1;
+  }
+   .footer-top .footer-contact img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    
+  } 
+
+  
+}
+@media screen and (min-width: 768px) and (max-width:1198px) {
+  .footer-top {
+    width: 100%;
+    padding-left: 50px;
+    font-size: 11px;
+
+  }
+  .footer-top .footer-contact p {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+  }
+  .footer-top h4 {
+    font-size: 18px;
+    font-weight: bold;
+    
+    position: relative;
+    padding-bottom: 12px;
+  }
+  .footer-top .footer-links {
+    margin-bottom: 30px;
+  }
+  .footer-top .footer-links ul {
+    list-style: none;
+    padding-left: 1rem !important;
+    margin: 0;
+  }
+  .footer-top .footer-links ul i {
+    
+    color: #fff;
+    font-size: 12px;
+    line-height: 1;
+  }
+   .footer-top .footer-contact img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    
+  } 
+
+  
+}
+
